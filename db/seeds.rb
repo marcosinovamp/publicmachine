@@ -30,3 +30,16 @@ orgs["unidades"].each do |o|
         end
     end
 end
+
+@erros = []
+CSV.foreach(filepath) do |row|
+    if Instituicao.find_by(codigo: row[0].to_i).nil?
+        @erros << [row[0], row[1], row[2]]
+    else
+        @cor = Instituicao.find_by(codigo: row[0].to_i)
+        @cor.natureza = row[1]
+        @cor.administracao = row[2]
+        @cor.save
+    end
+end
+

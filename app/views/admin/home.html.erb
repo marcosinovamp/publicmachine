@@ -1,0 +1,30 @@
+<div class="container">
+    <h1>Máquina Pública</h1>
+    <br>
+    <h1><%=@bases.first.nome%></h1>
+    <%if @bases.second.pai == @bases.first.codigo %>
+        <h2 style="text-indent:50px"><%=@bases.second.nome%></h2>
+    <%else%>
+        <h2><%=@bases.second.nome%></h2>
+    <%end%>
+    <%if @bases.third.pai == @bases.second.codigo %>
+        <h3 style="text-indent:100px"><%=@bases.third.nome%></h3>
+    <%else%>
+        <h3><%=@bases.third.nome%></h3>
+    <%end%>
+    <%@inst.all.select{|i| i.pai == @bases.third.codigo}.each do |s|%>
+        <h4 style="text-indent:150px"><%=s.nome%> - <%=s.sigla%></h4>
+        <%@inst.all.select{|i| i.pai == s.codigo}.each do |x|%>
+            <h5 style="text-indent:200px"><%=x.nome%> - <%=x.sigla%> - <%=@inst.all.select{|i| i.pai == x.codigo}.size%></h5>
+            <%@inst.all.select{|i| i.pai == x.codigo}.each do |z|%>
+                <h6 style="text-indent:250px"><%=z.nome%> - <%=z.sigla%></h6>
+            <%end%>
+        <%end%>
+    <%end%>
+    <br>
+    <br>
+    <h6>Organizações Militares</h6>
+    <%@militares.each do |m|%>
+        <p><%=m.nome%> - <%=m.sigla%></p>
+    <%end%>
+</div>
