@@ -1,6 +1,6 @@
 require "test_helper"
 
-class UnOrgTest < ActiveSupport::TestCase
+class UorgTest < ActiveSupport::TestCase
   # test "the truth" do
   #   assert true
   # end

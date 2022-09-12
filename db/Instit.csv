@@ -1,0 +1,251 @@
+﻿1,Financiadora de Estudos e Projetos,FINEP,267175,1,entidade,1,1,Outros
+2,Banco Nacional de Desenvolvimento Econômico e Social,BNDES,235876,2,entidade,1,1,Banco Público
+3,Fundação Instituto Brasileiro de Geografia e Estatística,IBGE,235876,3,entidade,1,1,APF
+7,Instituto de Pesquisa Econômica Aplicada,IPEA,235876,7,entidade,1,1,APF
+8,Conselho Nacional de Desenvolvimento Científico e Tecnológico,CNPq,267175,8,entidade,1,1,Outros
+14,Ministério da Agricultura$§ Pecuária e Abastecimento,MAPA,26,14,orgao,1,1,APF
+25,Empresa Brasileira de Pesquisa Agropecuária,EMBRAPA,14,25,entidade,1,1,Empresa
+26,Presidência da República,PR,208613,26,orgao,1,1,APF
+27,Gabinete de Segurança Institucional da Presidência da República,GSI/PR,26,27,orgao,1,1,APF
+46,Advocacia-Geral da União,AGU,26,46,orgao,1,1,APF
+73,Empresa Brasileira de Infraestrutura Aeroportuária,INFRAERO,2846,73,entidade,1,1,Empresa
+74,Empresa Brasileira de Correios e Telégrafos,ECT,264359,74,entidade,1,1,Empresa
+75,Telecomunicações Brasileiras S.A.,TELEBRÁS,264359,75,entidade,1,1,Empresa
+89,Banco Central do Brasil,BCB,26,89,entidade,1,1,APF
+90,Serviço Federal de Processamento de Dados,SERPRO,235876,90,entidade,1,1,Empresa
+91,Caixa Econômica Federal,CAIXA,235876,91,entidade,1,1,Empresa
+92,Casa da Moeda do Brasil,CMB,235876,92,entidade,1,1,Empresa
+93,Banco do Brasil S.A.,BB,235876,93,entidade,1,1,Banco Público
+134,Indústria de Material Bélico do Brasil,IMBEL,94,134,entidade,1,1,Empresa
+166,Superintendência da Zona Franca de Manaus,SUFRAMA,235876,166,entidade,1,1,APF
+169,Companhia de Desenvolvimento dos Vales do São Francisco e do Parnaíba,CODEVASF,235880,169,entidade,1,1,Empresa
+171,Banco da Amazônia S.A.,BASA,235876,171,entidade,1,1,Banco Público
+172,Banco do Nordeste do Brasil S.A.,BNB,235876,172,entidade,1,1,Banco Público
+173,Fundação Nacional do Índio,FUNAI,235881,173,entidade,1,1,APF
+180,Companhia Docas do Rio de Janeiro,CDRJ,2846,180,entidade,1,1,Empresa
+181,Companhia Docas do Maranhão,CODOMAR,2846,181,entidade,1,1,Empresa
+182,Companhia Docas do Pará,CDP,2846,182,entidade,1,1,Empresa
+183,Companhia Docas do Rio Grande do Norte,CODERN,2846,183,entidade,1,1,Empresa
+208,Caixa de Construções de Casas para o Pessoal da Marinha,CCCPCM,185,208,entidade,1,1,Empresa
+221,Fundação Jorge Duprat Figueiredo$§ de Segurança e Medicina do Trabalho,FUNDACENTRO,276368,221,entidade,1,1,APF
+223,Comissão Nacional de Energia Nuclear,CNEN,267175,223,entidade,1,1,APF
+224,Petróleo Brasileiro S.A.,PETROBRAS,2852,224,entidade,1,1,Empresa
+226,Centrais Elétricas Brasileiras S/A,ELETROBRÁS,2852,226,entidade,1,1,Empresa
+227,Companhia de Pesquisa de Recursos Minerais,CPRM,2852,227,entidade,1,1,Empresa
+228,Indústrias Nucleares do Brasil S/A,INB,2852,228,entidade,1,1,Empresa
+235,Superintendência de Seguros Privados,SUSEP,235876,235,entidade,1,1,APF
+240,Instituto Nacional de Metrologia$§ Qualidade e Tecnologia,INMETRO,235876,240,entidade,1,1,APF
+244,Ministério da Educação,MEC,26,244,orgao,1,1,APF
+249,Instituto Nacional de Estudos e Pesquisas Educacionais Anísio Teixeira,INEP,244,249,entidade,1,1,APF
+250,Fundação Coordenação de Aperfeiçoamento de Pessoal de Nível Superior,CAPES,244,250,entidade,1,1,APF
+253,Fundo Nacional de Desenvolvimento da Educação,FNDE,244,253,entidade,1,1,APF
+256,Colégio Pedro II,CP II,244,256,entidade,1,1,APF
+257,Fundação Joaquim Nabuco,FUNDAJ,244,257,entidade,1,1,APF
+258,Hospital de Clínicas de Porto Alegre,HCPA,244,258,entidade,1,1,Empresa
+260,Universidade Federal do Estado do Rio de Janeiro,UNIRIO,244,260,entidade,1,1,APF
+261,Fundação Casa de Rui Barbosa,FCRB,72084,261,entidade,1,1,APF
+263,Ministério das Relações Exteriores,MRE,26,263,orgao,1,1,APF
+299,Fundação Alexandre de Gusmão,FUNAG,263,299,entidade,1,1,APF
+303,Empresa de Tecnologia e Informações da Previdência ,DATAPREV,235876,303,entidade,1,1,Empresa
+304,Ministério da Saúde,MS,26,304,orgao,1,1,APF
+315,Fundação Oswaldo Cruz,FIOCRUZ,304,315,entidade,1,1,APF
+322,Conselho Administrativo de Defesa Econômica,CADE,235881,322,entidade,1,1,APF
+367,Departamento Nacional de Obras Contra as Secas,DNOCS,235880,367,entidade,1,1,APF
+372,Companhia Brasileira de Trens Urbanos ,CBTU,235880,372,entidade,1,1,Empresa
+382,Instituto Nacional da Propriedade Industrial,INPI,235876,382,entidade,1,1,APF
+415,Universidade Federal do Pará,UFPA,244,415,entidade,1,1,APF
+416,Universidade Federal do Ceará,UFC,244,416,entidade,1,1,APF
+417,Universidade Federal do Rio Grande do Norte,UFRN,244,417,entidade,1,1,APF
+418,Universidade Federal de Pernambuco,UFPE,244,418,entidade,1,1,APF
+419,Universidade Federal da Paraíba,UFPB,244,419,entidade,1,1,APF
+420,Universidade Federal de Alagoas,UFAL,244,420,entidade,1,1,APF
+421,Universidade Federal da Bahia,UFBA,244,421,entidade,1,1,APF
+422,Universidade Federal de Goiás,UFG,244,422,entidade,1,1,APF
+423,Universidade Federal de Minas Gerais,UFMG,244,423,entidade,1,1,APF
+424,Universidade Federal de Juiz de Fora,UFJF,244,424,entidade,1,1,APF
+425,Universidade Federal do Espírito Santo,UFES,244,425,entidade,1,1,APF
+426,Universidade Federal do Rio de Janeiro,UFRJ,244,426,entidade,1,1,APF
+427,Universidade Federal Fluminense,UFF,244,427,entidade,1,1,APF
+428,Universidade Federal do Paraná,UFPR,244,428,entidade,1,1,APF
+429,Universidade Federal de Santa Catarina,UFSC,244,429,entidade,1,1,APF
+430,Universidade Federal do Rio Grande do Sul,UFRGS,244,430,entidade,1,1,APF
+431,Universidade Federal de Santa Maria,UFSM,244,431,entidade,1,1,APF
+432,Universidade Federal Rural do Rio de Janeiro,UFRRJ,244,432,entidade,1,1,APF
+433,Universidade Federal Rural de Pernambuco,UFRPE,244,433,entidade,1,1,APF
+434,Instituto Federal de Educação$§ Ciência e Tecnologia do Piauí,IFPI,244,434,entidade,1,1,APF
+439,Instituto Federal de Educação$§ Ciência e Tecnologia do Rio Grande do Norte,IFRN,244,439,entidade,1,1,APF
+444,Instituto Federal de Educação$§ Ciência e Tecnologia da Bahia,IFBA,244,444,entidade,1,1,APF
+445,Centro Federal de Educação Tecnológica de Minas Gerais,CEFET-MG,244,445,entidade,1,1,APF
+448,Centro Federal de Educação Tecnológica - Celso Suckow da Fonseca,CEFET-RJ,244,448,entidade,1,1,APF
+451,Instituto Federal de Educação$§ Ciência e Tecnologia de Goiás,IFG,244,451,entidade,1,1,APF
+453,Instituto Federal de Educação$§ Ciência e Tecnologia de São Paulo,IFSP,244,453,entidade,1,1,APF
+454,Universidade Tecnológica Federal do Paraná,UTFPR,244,454,entidade,1,1,APF
+455,Instituto Federal de Educação$§ Ciência e Tecnologia de Santa Catarina,IFSC,244,455,entidade,1,1,APF
+456,Instituto Federal de Educação$§ Ciência e Tecnologia Sul-Rio-Grandense,IFSul,244,456,entidade,1,1,APF
+457,Universidade Federal Rural da Amazônia,UFRA,244,457,entidade,1,1,APF
+458,Universidade Federal Rural do Semi-Árido,UFERSA-RN,244,458,entidade,1,1,APF
+459,Universidade Federal do Triângulo Mineiro,UFTM,244,459,entidade,1,1,APF
+460,Universidade Federal dos Vales do Jequitinhonha e Mucuri,UFVJM,244,460,entidade,1,1,APF
+461,Universidade Federal de Alfenas,UNIFAL-MG,244,461,entidade,1,1,APF
+462,Universidade Federal de Itajubá,UNIFEI,244,462,entidade,1,1,APF
+463,Universidade Federal de Lavras,UFLA,244,463,entidade,1,1,APF
+464,Universidade Federal de São Paulo,UNIFESP,244,464,entidade,1,1,APF
+465,Fundação Universidade do Amazonas,UFAM,244,465,entidade,1,1,APF
+466,Fundação Universidade Federal do Acre,UFAC,244,466,entidade,1,1,APF
+467,Fundação Universidade Federal do Maranhão,UFMA,244,467,entidade,1,1,APF
+468,Fundação Universidade Federal do Piauí,UFPI,244,468,entidade,1,1,APF
+469,Fundação Universidade Federal de Sergipe,UFS,244,469,entidade,1,1,APF
+470,Fundação Universidade de Brasília,UNB,244,470,entidade,1,1,APF
+471,Fundação Universidade Federal de Mato Grosso,UFMT,244,471,entidade,1,1,APF
+472,Universidade Federal de Uberlândia,UFU,244,472,entidade,1,1,APF
+473,Fundação Universidade Federal de Ouro Preto,FUFOP,244,473,entidade,1,1,APF
+474,Fundação Universidade Federal de Viçosa,UFV,244,474,entidade,1,1,APF
+475,Fundação Universidade Federal de São Carlos,UFSCar,244,475,entidade,1,1,APF
+476,Fundação Universidade Federal do Rio Grande,FURG,244,476,entidade,1,1,APF
+477,Fundação Universidade Federal de Pelotas,UFPel,244,477,entidade,1,1,APF
+478,Comissão de Valores Mobiliários,CVM,235876,478,entidade,1,1,APF
+701,Companhia Docas do Espírito Santo,CODESA,2846,701,entidade,1,1,Empresa
+702,Companhia das Docas do Estado da Bahia,CODEBA,2846,702,entidade,1,1,Empresa
+758,Companhia Docas do Ceará,CDC,2846,758,entidade,1,1,Empresa
+827,Fundação Universidade Federal de Mato Grosso do Sul,UFMS,244,827,entidade,1,1,APF
+930,Caixa de Financiamento Imobiliário da Aeronáutica,CFIAE,48,930,entidade,1,1,Empresa
+956,Fundação Escola Nacional de Administração Pública,Enap,235876,956,entidade,1,1,APF
+957,Fundação Habitacional do Exército,FHE,94,957,entidade,1,1,Empresa
+958,Empresa de Trens Urbanos de Porto Alegre S.A,TRENSURB,235880,958,entidade,1,1,Empresa
+959,Autoridade Portuária de Santos S.A.,APS S.A.,2846,959,entidade,1,1,Empresa
+970,Fundação Universidade Federal de Ciências da Saúde de Porto Alegre,UFCSPA,244,970,entidade,1,1,APF
+984,Fundação Biblioteca Nacional,FBN,72084,984,entidade,1,1,APF
+1013,Empresa Gerencial de Projetos Navais,EMGEPRON,185,1013,entidade,1,1,Empresa
+1209,Fundação Universidade Federal de Rondônia,UNIR,244,1209,entidade,1,1,APF
+1408,Vice-Presidência da República,VPR,26,1408,orgao,1,1,APF
+1605,Fundação Universidade Federal de Roraima,UFRR,244,1605,entidade,1,1,APF
+1710,Fundação Universidade Federal do Amapá,UNIFAP,244,1710,entidade,1,1,APF
+1734,Fundação Universidade Federal de São João Del Rei,FUNRei,244,1734,entidade,1,1,APF
+1782,Fundação Cultural Palmares,FCP,72084,1782,entidade,1,1,APF
+1799,Instituto Nacional de Colonização e Reforma Agrária,INCRA,14,1799,entidade,1,1,APF
+1800,VALEC - Engenharia$§ Construções e Ferrovias S.A. ,VALEC,2846,1800,entidade,1,1,Empresa
+1812,Instituto Brasileiro do Meio Ambiente e dos Recursos Naturais Renováveis,IBAMA,1927,1812,entidade,1,1,APF
+1913,Instituto de Pesquisas Jardim Botânico do Rio de Janeiro,JBRJ,1927,1913,entidade,1,1,APF
+1927,Ministério do Meio Ambiente,MMA,26,1927,orgao,1,1,APF
+1934,Instituto Nacional do Seguro Social,INSS,276368,1934,entidade,1,1,APF
+1949,Gabinete Pessoal do Presidente da República,GP-PR,26,1949,orgao,1,1,APF
+2026,Hospital Nossa Senhora da Conceição S/A,HNSC,304,2026,entidade,1,1,Empresa
+2045,Instituto do Patrimônio Histórico e Artístico Nacional,IPHAN,72084,2045,entidade,1,1,APF
+2114,Companhia Nacional de Abastecimento,CONAB,14,2114,entidade,1,1,Empresa
+2207,Fundação Nacional de Saúde,FUNASA,304,2207,entidade,1,1,APF
+2330,Fundação Nacional de Artes,FUNARTE,72084,2330,entidade,1,1,APF
+2837,Casa Civil da Presidência da República,CC-PR,26,2837,orgao,1,1,APF
+2846,Ministério da Infraestrutura,MINFRA,26,2846,orgao,1,1,APF
+2852,Ministério de Minas e Energia,MME,26,2852,orgao,1,1,APF
+3561,Instituto Federal de Educação$§ Ciência e Tecnologia de Roraima,IFRR,244,3561,entidade,1,1,APF
+4243,Agência Espacial Brasileira,AEB,267175,4243,entidade,1,1,APF
+8406,Fundação Osório,FOSORIO,94,8406,entidade,1,1,APF
+21089,Agência Nacional de Energia Elétrica,ANEEL,2852,21089,entidade,1,1,APF
+25064,Agência Nacional de Telecomunicações,ANATEL,264359,25064,entidade,1,1,APF
+25281,Agência Nacional do Petróleo$§ Gás Natural e Biocombustíveis,ANP,2852,25281,entidade,1,1,APF
+29415,Companhia de Entrepostos e Armazéns Gerais de São Paulo ,CEAGESP,235876,29415,entidade,1,1,Empresa
+36687,Agência Nacional de Vigilância Sanitária,ANVISA,304,36687,entidade,1,1,APF
+41066,Ministério da Defesa,MD,26,41066,orgao,1,1,APF
+42673,Secretaria de Governo da Presidência da República,SEGOV/PR,26,42673,orgao,1,1,APF
+45013,Agência Nacional de Saúde Suplementar,ANS,304,45013,entidade,1,1,APF
+46784,Instituto Federal de Educação$§ Ciência e Tecnologia do Sertão Pernambucano,IFSertaoPE,244,46784,entidade,1,1,APF
+46876,Agência Nacional de Águas e Saneamento Básico,ANA,235880,46876,entidade,1,1,APF
+47388,Instituto Nacional de Tecnologia da Informação,ITI,2837,47388,entidade,1,1,APF
+47838,Centrais de Abastecimento de Minas Gerais S.A.,CEASA-MG,14,47838,entidade,1,1,Empresa
+47839,Companhia de Armazéns e Silos do Estado de Minas Gerais,CASEMG,14,47839,entidade,1,1,Empresa
+48739,Nuclebrás Equipamentos Pesados S/A,NUCLEP,2852,48739,entidade,1,1,Empresa
+49103,Instituto Federal de Educação$§ Ciência e Tecnologia do Paraná,IFPR,244,49103,entidade,1,1,APF
+52702,Fundação Universidade Federal do Tocantins,UFT,244,52702,entidade,1,1,APF
+54793,Agência Nacional de Transportes Terrestres,ANTT,2846,54793,entidade,1,1,APF
+54843,Agência Nacional de Transportes Aquaviários,ANTAQ,2846,54843,entidade,1,1,APF
+54844,Departamento Nacional de Infraestrutura de Transportes,DNIT,2846,54844,entidade,1,1,APF
+55962,Empresa Gestora de Ativos,EMGEA,235876,55962,entidade,1,1,Empresa
+57682,Agência Nacional do Cinema,ANCINE,72084,57682,entidade,1,1,APF
+67671,Universidade Federal de Campina Grande,UFCG,244,67671,entidade,1,1,APF
+69624,Fundação Universidade Federal do Vale do São Francisco,UNIVASF,244,69624,entidade,1,1,APF
+72080,Assessoria Especial do Presidente da República,AEPR,26,72080,orgao,1,1,APF
+72084,Ministério do Turismo,MTur,26,72084,orgao,1,1,APF
+76608,Empresa de Pesquisa Energética,EPE,2852,76608,entidade,1,1,Empresa
+83815,Empresa Brasileira de Hemoderivados e Biotecnologia,HEMOBRÁS,304,83815,entidade,1,1,Empresa
+84703,Fundação Universidade Federal do ABC,UFABC,244,84703,entidade,1,1,APF
+84710,Universidade Federal do Recôncavo da Bahia,UFRB,244,84710,entidade,1,1,APF
+84712,Fundação Universidade Federal da Grande Dourados,UFGD,244,84712,entidade,1,1,APF
+86144,Agência Nacional de Aviação Civil,ANAC,2846,86144,entidade,1,1,APF
+86567,Empresa Brasil de Comunicação S.A.,EBC,264359,86567,entidade,1,1,Empresa
+91138,Superintendência do Desenvolvimento da Amazônia,SUDAM,235880,91138,entidade,1,1,APF
+91144,Superintendência do Desenvolvimento do Nordeste,SUDENE,235880,91144,entidade,1,1,APF
+91842,Instituto Chico Mendes de Conservação da Biodiversidade,ICMBio,1927,91842,entidade,1,1,APF
+94427,Instituto Federal de Educação$§ Ciência e Tecnologia do Acre,IFAC,244,94427,entidade,1,1,APF
+94428,Instituto Federal de Educação$§ Ciência e Tecnologia do Amapá,IFAP,244,94428,entidade,1,1,APF
+94430,Instituto Federal de Educação$§ Ciência e Tecnologia de Brasília,IFB,244,94430,entidade,1,1,APF
+94739,Fundação Universidade Federal do Pampa,UNIPAMPA,244,94739,entidade,1,1,APF
+98519,Centro Nacional de Tecnologia Eletrônica Avançada S. A,CEITEC/S.A.,267175,98519,entidade,1,1,Empresa
+100113,Superintendência do Desenvolvimento do Centro-Oeste,SUDECO,235880,100113,entidade,1,1,APF
+100584,Instituto Brasileiro de Museus,IBRAM,72084,100584,entidade,1,1,APF
+100900,Instituto Federal de Educação$§ Ciência e Tecnologia de Alagoas,IFAL,244,100900,entidade,1,1,APF
+100901,Instituto Federal de Educação$§ Ciência e Tecnologia do Norte de Minas Gerais,IFNMG,244,100901,entidade,1,1,APF
+100902,Instituto Federal de Educação$§ Ciência e Tecnologia do Sudeste de Minas Gerais,IFSUDMG,244,100902,entidade,1,1,APF
+100903,Instituto Federal de Educação$§ Ciência e Tecnologia do Triângulo Mineiro,IFTM,244,100903,entidade,1,1,APF
+100904,Instituto Federal de Educação$§ Ciência e Tecnologia de Mato Grosso do Sul,IFMS,244,100904,entidade,1,1,APF
+100905,Instituto Federal de Educação$§ Ciência e Tecnologia da Paraíba,IFPB,244,100905,entidade,1,1,APF
+100906,Instituto Federal de Educação$§ Ciência e Tecnologia Farroupilha,IFFAR,244,100906,entidade,1,1,APF
+100907,Instituto Federal de Educação$§ Ciência e Tecnologia de Rondônia,IFRO,244,100907,entidade,1,1,APF
+100908,Instituto Federal de Educação$§ Ciência e Tecnologia do Tocantins,IFTO,244,100908,entidade,1,1,APF
+100909,Instituto Federal de Educação$§ Ciência e Tecnologia de Sergipe,IFS,244,100909,entidade,1,1,APF
+100910,Instituto Federal de Educação$§ Ciência e Tecnologia do Amazonas,IFAM,244,100910,entidade,1,1,APF
+100911,Instituto Federal de Educação$§ Ciência e Tecnologia do Ceará,IFCE,244,100911,entidade,1,1,APF
+100912,Instituto Federal de Educação$§ Ciência e Tecnologia do Espírito Santo,IFES,244,100912,entidade,1,1,APF
+100913,Instituto Federal de Educação$§ Ciência e Tecnologia Goiano,IF-GOIANO,244,100913,entidade,1,1,APF
+100914,Instituto Federal de Educação$§ Ciência e Tecnologia de Minas Gerais,IFMG,244,100914,entidade,1,1,APF
+100915,Instituto Federal de Educação$§ Ciência e Tecnologia do Sul de Minas Gerais,IFSULMG,244,100915,entidade,1,1,APF
+100916,Instituto Federal de Educação$§ Ciência e Tecnologia de Mato Grosso,IFMT,244,100916,entidade,1,1,APF
+100917,Instituto Federal de Educação$§ Ciência e Tecnologia do Pará,IFPA,244,100917,entidade,1,1,APF
+100918,Instituto Federal de Educação$§ Ciência e Tecnologia do Rio Grande do Sul,IFRS,244,100918,entidade,1,1,APF
+100919,Instituto Federal de Educação$§ Ciência e Tecnologia Catarinense,IFC,244,100919,entidade,1,1,APF
+100920,Instituto Federal de Educação$§ Ciência e Tecnologia Baiano,IF BAIANO,244,100920,entidade,1,1,APF
+100921,Instituto Federal de Educação$§ Ciência e Tecnologia do Maranhão,IFMA,244,100921,entidade,1,1,APF
+100922,Instituto Federal de Educação$§ Ciência e Tecnologia de Pernambuco,IFPE,244,100922,entidade,1,1,APF
+100930,Instituto Federal de Educação$§ Ciência e Tecnologia do Rio de Janeiro,IFRJ,244,100930,entidade,1,1,APF
+100931,Instituto Federal de Educação$§ Ciência e Tecnologia Fluminense,IFF,244,100931,entidade,1,1,APF
+103730,Universidade Federal da Fronteira Sul,UFFS,244,103730,entidade,1,1,APF
+104667,Universidade Federal do Oeste do Pará,UFOPA,244,104667,entidade,1,1,APF
+105793,Universidade Federal da Integração Latino-Americana,UNILA,244,105793,entidade,1,1,APF
+105915,Superintendência Nacional de Previdência Complementar,PREVIC,276368,105915,entidade,1,1,APF
+109912,Universidade da Integração Internacional da Lusofonia Afro-Brasileira,UNILAB,244,109912,entidade,1,1,APF
+109913,Empresa Brasileira de Administração de Petróleo e Gás Natural S.A.- Pré-Sal Petróleo S.A,PPSA,2852,109913,entidade,1,1,Empresa
+117267,Empresa Brasileira de Serviços Hospitalares,EBSERH,244,117267,entidade,1,1,Empresa
+118698,Agência Brasileira Gestora de Fundos Garantidores e Garantias S.A.,ABGF,235876,118698,entidade,1,1,Empresa
+119672,Empresa de Planejamento e Logística S.A.,EPL,2846,119672,entidade,1,1,Empresa
+120397,Fundação de Previdência Complementar do Servidor Público Federal do Poder Executivo,Funpresp-Exe,235876,120397,entidade,1,1,Empresa
+122378,Universidade Federal do Sul da Bahia,UFSB,244,122378,entidade,1,1,APF
+122381,Universidade Federal do Sul e Sudeste do Pará,Unifesspa,244,122381,entidade,1,1,APF
+122386,Universidade Federal do Oeste da Bahia,UFOB,244,122386,entidade,1,1,APF
+122391,Universidade Federal do Cariri ,UFCA,244,122391,entidade,1,1,APF
+200000,República Federativa do Brasil, ,,200000,ente,,,APF
+200001,União,UNIAO,200000,200001,ente,1,,APF
+200949,Amazônia Azul Tecnologias de Defesa S.A.,AMAZUL,185,200949,entidade,1,1,Empresa
+208613,Poder Executivo,PE,200001,208613,ente,1,1,APF
+214460,Controladoria-Geral da União,CGU,26,214460,orgao,1,1,APF
+219924,Secretaria-Geral da Presidência da República,SG,26,219924,orgao,1,1,APF
+219925,Ministério da Mulher$§ da Família e dos Direitos Humanos,MMFDH,26,219925,orgao,1,1,APF
+219927,Secretaria Especial de Assuntos Estratégicos,SEAE,26,219927,orgao,1,1,APF
+222120,Agência Nacional de Mineração,ANM,2852,222120,entidade,1,1,APF
+226371,Universidade Federal de Catalão,UFCAT,244,226371,entidade,1,1,APF
+226372,Universidade Federal de Jataí,UFJ,244,226372,entidade,1,1,APF
+226373,Universidade Federal de Rondonópolis,UFR,244,226373,entidade,1,1,APF
+227867,Universidade Federal do Delta do Parnaíba,UFDPar,244,227867,entidade,1,1,APF
+227868,Universidade Federal do Agreste de Pernambuco,UFAPE,244,227868,entidade,1,1,APF
+235874,Ministério da Cidadania,MC,26,235874,orgao,1,1,APF
+235876,Ministério da Economia,ME,26,235876,orgao,1,1,APF
+235880,Ministério do Desenvolvimento Regional,MDR,26,235880,orgao,1,1,APF
+235881,Ministério da Justiça e Segurança Pública,MJSP,26,235881,orgao,1,1,APF
+235884,Autoridade Nacional de Proteção de Dados,ANPD,26,235884,orgao,1,1,Outros
+241361,Universidade Federal do Norte do Tocantins,UFNT,244,241361,entidade,1,1,APF
+260668,Defensoria Pública da União,DPU,244322,260668,orgao,1,1,APF
+264359,Ministério das Comunicações,MCOM,26,264359,orgao,1,1,APF
+267175,Ministério da Ciência$§ Tecnologia e Inovações,MCTI,26,267175,orgao,1,1,APF
+273855,Autoridade Nacional de Segurança Nuclear,ANSN,2852,273855,entidade,1,1,Outros
+276368,Ministério do Trabalho e Previdência,MTP,26,276368,orgao,1,1,APF
+287325,Veículo de Desestatização MG Investimentos S.A.,VDMG,235876,287325,entidade,1,1,Empresa
+292009,NAV Brasil Serviços de Navegação Aérea S.A,NAV Brasil,48,292009,entidade,1,1,Empresa
+300037, Empresa Brasileira de Participações em Energia Nuclear e Binacional S.A.,ENBpar,2852,300037,entidade,1,1,Empresa

@@ -1,0 +1,21 @@
+# Read about fixtures at https://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  nome: MyString
+  sigla: MyString
+  codigo: 1
+  pai: 1
+  instituicao: 1
+  tipo: MyString
+  esfera: 1
+  poder: 1
+
+two:
+  nome: MyString
+  sigla: MyString
+  codigo: 1
+  pai: 1
+  instituicao: 1
+  tipo: MyString
+  esfera: 1
+  poder: 1

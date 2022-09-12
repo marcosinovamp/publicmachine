@@ -10,16 +10,28 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema[7.0].define(version: 2022_09_10_140742) do
-  create_table "un_orgs", force: :cascade do |t|
+ActiveRecord::Schema[7.0].define(version: 2022_09_12_000156) do
+  create_table "instituicaos", force: :cascade do |t|
     t.string "nome"
     t.string "sigla"
-    t.string "código"
+    t.integer "codigo"
+    t.integer "pai"
+    t.string "tipo"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
+    t.string "natureza"
+  end
+
+  create_table "uorgs", force: :cascade do |t|
+    t.string "nome"
+    t.string "sigla"
+    t.integer "codigo"
+    t.integer "pai"
     t.string "tipo"
-    t.string "unidade_pai"
-    t.string "orgao_entidade"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+    t.integer "instituicao_id"
+    t.index ["instituicao_id"], name: "index_uorgs_on_instituicao_id"
   end
 
 end
