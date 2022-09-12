@@ -12,12 +12,18 @@
     <%else%>
         <h3><%=@bases.third.nome%></h3>
     <%end%>
-    <%@inst.all.select{|i| i.pai == @bases.third.codigo}.each do |s|%>
-        <h4 style="text-indent:150px"><%=s.nome%> - <%=s.sigla%></h4>
-        <%@inst.all.select{|i| i.pai == s.codigo}.each do |x|%>
-            <h5 style="text-indent:200px"><%=x.nome%> - <%=x.sigla%> - <%=@inst.all.select{|i| i.pai == x.codigo}.size%></h5>
-            <%@inst.all.select{|i| i.pai == x.codigo}.each do |z|%>
-                <h6 style="text-indent:250px"><%=z.nome%> - <%=z.sigla%></h6>
+    <%@bases.third.children.each do |s|%>
+        <h4 style="text-indent:150px"><a href="unidade/<%=s.id%>"><%=s.nome%>(<%=s.sigla%>)</a></h4>
+        <%s.children.sort_by{|c| [c.howmuch, c.nome]}.each do |x|%>
+            <%if x.howmuch == 0%>
+                <h5 style="text-indent:200px"><a href="unidade/<%=x.id%>"><%=x.nome%> (<%=x.sigla%>)</a></h5>
+            <%elsif x.howmuch == 1%>
+                <h5 style="text-indent:200px"><a href="unidade/<%=x.id%>"><%=x.nome%> (<%=x.sigla%>): <%=x.howmuch%> órgão subordinado</a></h5>
+            <%else%>
+                <h5 style="text-indent:200px"><a href="unidade/<%=x.id%>"><%=x.nome%> (<%=x.sigla%>): <%=x.howmuch%> órgãos subordinados</a></h5>
+            <%end%>
+            <%x.children.sort_by{|c| c.nome}.each do |z|%>
+                <h6 style="text-indent:250px"><a href="unidade/<%=z.id%>"><%=z.nome%> (<%=z.sigla%>)</a></h6>
             <%end%>
         <%end%>
     <%end%>
@@ -25,6 +31,6 @@
     <br>
     <h6>Organizações Militares</h6>
     <%@militares.each do |m|%>
-        <p><%=m.nome%> - <%=m.sigla%></p>
+        <p><a href="unidade/<%=m.id%>"><%=m.nome%> - <%=m.sigla%></a></p>
     <%end%>
 </div>

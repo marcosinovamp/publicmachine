@@ -1,2 +1,35 @@
-<h1>Admin#unidade</h1>
-<p>Find me in app/views/admin/unidade.html.erb</p>
+<h1><%=@instit.nome%>(<%=@instit.sigla%>)</h1>
+<br>
+<%lv1=0%>
+<%@instit.uorgs.select{|i| i.pai == @instit.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |u|%>
+    <h3><%=lv1 += 1%> - <%=u.nome%>(<%=u.sigla%>)</h3>
+    <%lv2=0%>
+    <%@instit.uorgs.select{|i| i.pai == u.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und|%>
+         <h4 style="text-indent:50px"><%=lv1%>.<%=lv2 += 1%> - <%=und.nome%>(<%=und.sigla%>)</h4>
+         <%lv3=0%>
+         <%@instit.uorgs.select{|i| i.pai == und.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und2|%>
+            <h5 style="text-indent:100px"><%=lv1%>.<%=lv2%>.<%=lv3 += 1%> - <%=und2.nome%>(<%=und2.sigla%>)</h5>
+            <%lv4=0%>
+            <%@instit.uorgs.select{|i| i.pai == und2.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und3|%>
+                <h6 style="text-indent:150px"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4 += 1%> - <%=und3.nome%>(<%=und3.sigla%>)</h6>
+                <%lv5=0%>
+                <%@instit.uorgs.select{|i| i.pai == und3.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und4|%>
+                    <p style="text-indent:200px"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5 += 1%> - <%=und4.nome%>(<%=und4.sigla%>)</p>
+                    <%lv6=0%>
+                    <%@instit.uorgs.select{|i| i.pai == und4.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und5|%>
+                        <p style="text-indent:250px;font-size:90%"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5%>.<%lv6 += 1%> - <%=und5.nome%>(<%=und5.sigla%>)</p>
+                        <%lv7=0%>
+                        <%@instit.uorgs.select{|i| i.pai == und5.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und6|%>
+                            <p style="text-indent:300px;font-size:80%"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5%>.<%lv6%>.<%lv7 += 1%> - <%=und6.nome%>(<%=und6.sigla%>)</p>
+                            <%lv8=0%>
+                            <%@instit.uorgs.select{|i| i.pai == und6.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und7|%>
+                                <p style="text-indent:350px;font-size:70%;color:red"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5%>.<%lv6%>.<%lv7%>.<%=lv8 += 1%> - <%=und7.nome%>(<%=und7.sigla%>)</p>
+                            <%end%>
+                        <%end%>
+                    <%end%>
+                <%end%>
+            <%end%>
+        <%end%>
+    <%end%>
+<%end%>
+
