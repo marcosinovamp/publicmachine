@@ -20,6 +20,6 @@ class AdminController < ApplicationController
 
   def unidade
     @instit = Instituicao.find(params[:id])
-    @order = {"Gabinete" => 1, "Assessoria" => 2, "Secretaria Executiva" => 3, "Secretaria Especial" => 4,"Secretaria" => 5, "Subsecretaria" => 6, "Departamento" => 7, "Coordenação-Geral" => 8, "Coordenação" => 9, "Divisão" => 10,"Equipe" => 11, "Conselho" => 12, "Comitê" => 13}
+    @order = {"Gabinete" => 1, "Assessoria" => 2, "Secretaria-Executiva" => 3, "Secretaria Especial" => 4,"Secretaria" => 5, "Subsecretaria" => 6, "Departamento" => 7, "Coordenação-Geral" => 8, "Coordenação" => 9, "Divisão" => 10,"Equipe" => 11, "Conselho" => 12, "Comitê" => 13}
   end
 end

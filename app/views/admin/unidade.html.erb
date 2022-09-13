@@ -1,6 +1,91 @@
 <h1><%=@instit.nome%>(<%=@instit.sigla%>)</h1>
 <br>
 <%lv1=0%>
+<%nmb1=2%>
+<%nmb2=1000%>
+<%nmb3=10000%>
+<%@instit.uorgs.select{|i| i.pai == @instit.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |u|%>
+    <div id="accordion<%=nmb1%>">
+        <div class="card">
+            <div class="card-header" id="<%="heading#{nmb1}"%>"
+                <h5 class="mb-0">
+                    <button class="btn btn-link" data-toggle="collapse" data-target="<%="#collapse#{nmb1}"%>" aria-expanded="true" aria-controls="<%="#collapse#{nmb1}"%>"
+                        <h3><%=lv1 += 1%> - <%=u.nome%>(<%=u.sigla%>)</h3>
+                    </button>
+                </h5>
+            </div>
+            <div id="<%="collapse#{nmb1}"%>" class="collapse" aria-labelledby="<%="heading#{nmb1}"%>" data-parent="#accordion<%=nmb1%>">
+                <div class="card-body">
+                    <%lv2=0%>
+                    <%nmb1 += 1%>
+                    <%@instit.uorgs.select{|i| i.pai == u.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und|%>
+                        <div id="accordion<%=nmb2%>">
+                            <div class="card">
+                                <div class="card-header" id="<%="heading#{nmb2}"%>"
+                                    <h5 class="mb-0">
+                                        <button class="btn btn-link" data-toggle="collapse" data-target="<%="#collapse#{nmb2}"%>" aria-expanded="true" aria-controls="<%="#collapse#{nmb2}"%>"
+                                            <h4 style="text-indent:50px"><%=lv1%>.<%=lv2 += 1%> - <%=und.nome%>(<%=und.sigla%>)</h4>
+                                        </button>
+                                    </h5>
+                                </div>
+                                <div id="<%="collapse#{nmb2}"%>" class="collapse" aria-labelledby="<%="heading#{nmb2}"%>" data-parent="#accordion<%=nmb2%>">
+                                    <div class="card-body">
+                                        <%lv3=0%>
+                                        <%nmb2 += 1%>
+                                        <%@instit.uorgs.select{|i| i.pai == und.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und2|%>
+                                            <div id="accordion<%=nmb3%>">
+                                                <div class="card">
+                                                    <div class="card-header" id="<%="heading#{nmb3}"%>"
+                                                        <h5 class="mb-0">
+                                                            <button class="btn btn-link" data-toggle="collapse" data-target="<%="#collapse#{nmb3}"%>" aria-expanded="true" aria-controls="<%="#collapse#{nmb3}"%>"
+                                                                <h5 style="text-indent:100px"><%=lv1%>.<%=lv2%>.<%=lv3 += 1%> - <%=und2.nome%>(<%=und2.sigla%>)</h5>
+                                                            </button>
+                                                        </h5>
+                                                    </div>
+                                                    <div id="<%="collapse#{nmb3}"%>" class="collapse" aria-labelledby="<%="heading#{nmb3}"%>" data-parent="#accordion<%=nmb3%>">
+                                                        <div class="card-body">
+                                                            <%lv4=0%>
+                                                            <%nmb3 += 1%>
+                                                            <%@instit.uorgs.select{|i| i.pai == und2.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und3|%>
+                                                                <h6 style="text-indent:150px"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4 += 1%> - <%=und3.nome%>(<%=und3.sigla%>)</h6>
+                                                                <%lv5=0%>
+                                                                <%@instit.uorgs.select{|i| i.pai == und3.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und4|%>
+                                                                    <p style="text-indent:200px"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5 += 1%> - <%=und4.nome%>(<%=und4.sigla%>)</p>
+                                                                    <%lv6=0%>
+                                                                    <%@instit.uorgs.select{|i| i.pai == und4.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und5|%>
+                                                                        <p style="text-indent:250px;font-size:90%"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5%>.<%lv6 += 1%> - <%=und5.nome%>(<%=und5.sigla%>)</p>
+                                                                        <%lv7=0%>
+                                                                        <%@instit.uorgs.select{|i| i.pai == und5.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und6|%>
+                                                                            <p style="text-indent:300px;font-size:80%"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5%>.<%lv6%>.<%lv7 += 1%> - <%=und6.nome%>(<%=und6.sigla%>)</p>
+                                                                            <%lv8=0%>
+                                                                            <%@instit.uorgs.select{|i| i.pai == und6.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |und7|%>
+                                                                                <p style="text-indent:350px;font-size:70%;color:red"><%=lv1%>.<%=lv2%>.<%=lv3%>.<%=lv4%>.<%=lv5%>.<%lv6%>.<%lv7%>.<%=lv8 += 1%> - <%=und7.nome%>(<%=und7.sigla%>)</p>
+                                                                            <%end%>
+                                                                        <%end%>
+                                                                    <%end%>
+                                                                <%end%>
+                                                            <%end%>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        <%end%>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    <%end%>
+                </div>
+            </div>
+        </div>
+    </div>
+<%end%>
+
+
+<!---
+<h1><%=@instit.nome%>(<%=@instit.sigla%>)</h1>
+<br>
+<%lv1=0%>
 <%@instit.uorgs.select{|i| i.pai == @instit.codigo}.sort_by{|s| [@order.map {|k,y| s.nome.include?(k) ? y : 14}, s.nome]}.each do |u|%>
     <h3><%=lv1 += 1%> - <%=u.nome%>(<%=u.sigla%>)</h3>
     <%lv2=0%>
@@ -32,4 +117,6 @@
         <%end%>
     <%end%>
 <%end%>
-
+--->
+<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
