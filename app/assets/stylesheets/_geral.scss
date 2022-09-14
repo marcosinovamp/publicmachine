@@ -1,0 +1,108 @@
+body{
+    background-color:#EFEBE9;
+    font-family: 'Mukta', sans-serif;
+    color: #3E2723;
+    //text-shadow: 1px 1px 1px #5D4037;
+    h1{
+        text-align:center;
+        margin:20px;
+        text-shadow: 1px 1px 1px #5D4037;
+    }
+    h2{
+        font-weight:700;
+        //text-shadow: 1px 1px 1px #5D4037;
+    }
+    h3{
+        font-weight:700;
+        //text-shadow: 1px 1px 1px #5D4037;
+    }
+}
+button{
+    text-decoration:none !important;
+    color: #8D6E63 !important;
+    padding-bottom:0px !important;
+    text-align: left !important;
+    font-weight:500 !important;
+    //text-shadow: 0.5px 0.5px 0.5px #5D4037;
+}
+a{
+    color: #8D6E63 !important;
+    text-decoration: none;
+    //text-shadow: 0.5px 0.5px 0.5px #5D4037 !important;
+    h2{
+    font-size:calc((1.375rem + 1.5vw)*0.9);
+    }
+    h3{
+    font-size:calc((1.375rem + 1.5vw)*0.8);
+    }
+    h4{
+    font-size:calc((1.375rem + 1.5vw)*0.7);
+    }
+    h5{
+    font-size:calc((1.375rem + 1.5vw)*0.6);
+    }
+    h6{
+    font-size:calc((1.375rem + 1.5vw)*0.5);
+    }
+    p{
+    font-size:calc((1.375rem + 1.5vw)*0.4);
+    }
+}
+.und{
+    //text-shadow: none !important;
+    h2{
+    font-size:calc((1rem + 1vw)*0.9);
+    font-weight:600;
+    //text-shadow: 0.5px 0.5px 0.5px #5D4037 !important;
+    }
+    h3{
+        //margin-top:5px;
+        font-size:calc((1rem + 1vw)*0.8);
+        font-weight:600;
+        //text-shadow: none !important;
+    }
+    h4{
+        //margin-top:5px;
+        font-size:calc((1rem + 1vw)*0.7);
+        font-weight:600;
+    }
+    h5{
+        //margin-top:5px;
+        font-size:calc((1rem + 1vw)*0.6);
+        font-weight:600;
+   //text-shadow: 0.5px 0.5px 0.5px #5D4037 !important;
+    }
+    h6{
+        //margin-top:5px;
+        font-size:calc((1rem + 1vw)*0.55);
+        font-weight:600;
+    //text-shadow: 0.5px 0.5px 0.5px #5D4037 !important;
+    }
+    p{
+        //margin-top:5px;
+        font-size:calc((1rem + 1vw)*0.5);
+        font-weight:600;
+    }
+}
+.box{
+    box-shadow:1px 1px 2.5px #BCAAA4;
+    padding:10px;
+    line-height:100%;
+    height: 100px;
+    width: 200px;
+}
+.pmbar{
+    background-color: #616161;
+    justify-content: space-around;
+    color:white;
+    a{
+        color: #EFEBE9 !important;
+    }
+}
+#logo{
+    font-family: 'Stint Ultra Condensed', cursive;
+    word-spacing: -0.2vw;
+    text-shadow: 0.1vw 0.1vw 0.15vw #3E2723;
+    color: #BCAAA4;
+    //font-size: 300%;
+}

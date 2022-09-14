@@ -1,7 +1,8 @@
 <div class="container">
-    <h1>Máquina Pública</h1>
+    <h1 id="logo" style="font-size:500%">A Máquina Pública</h1>
     <br>
-    <h1><%=@bases.first.nome%></h1>
+    <br>
+    <h2><img width="5%" src="https://www.gov.br/planalto/pt-br/conheca-a-presidencia/acervo/simbolos-nacionais/bandeira/bandeiragrande.jpg/@@images/image"></h2>
     <%if @bases.second.pai == @bases.first.codigo %>
         <h2 style="text-indent:50px"><%=@bases.second.nome%></h2>
     <%else%>
@@ -13,8 +14,8 @@
         <h3><%=@bases.third.nome%></h3>
     <%end%>
     <%@bases.third.children.each do |s|%>
-        <h4 style="text-indent:150px"><a href="unidade/<%=s.id%>"><%=s.nome%>(<%=s.sigla%>)</a></h4>
-        <%s.children.sort_by{|c| [c.howmuch, c.nome]}.each do |x|%>
+        <h4 style="text-indent:150px"><a href="unidade/<%=s.id%>"><%=s.nome%> (<%=s.sigla%>)</a></h4>
+        <%s.children.sort_by{|s| [@ordering.map {|k,y| s.nome.include?(k) ? y : 9}, s.howmuch, s.nome]}.each do |x|%>
             <%if x.howmuch == 0%>
                 <h5 style="text-indent:200px"><a href="unidade/<%=x.id%>"><%=x.nome%> (<%=x.sigla%>)</a></h5>
             <%elsif x.howmuch == 1%>
@@ -22,8 +23,8 @@
             <%else%>
                 <h5 style="text-indent:200px"><a href="unidade/<%=x.id%>"><%=x.nome%> (<%=x.sigla%>): <%=x.howmuch%> órgãos subordinados</a></h5>
             <%end%>
-            <%x.children.sort_by{|c| c.nome}.each do |z|%>
-                <h6 style="text-indent:250px"><a href="unidade/<%=z.id%>"><%=z.nome%> (<%=z.sigla%>)</a></h6>
+            <%x.children.sort_by{|c| [@kinds.map {|k,y| c.natureza == k ? y: 7}, c.nome]}.each do |z|%>
+                <h6 style="text-indent:250px"><a href="unidade/<%=z.id%>"><%=z.nome%> (<%=z.sigla%>) - <%=z.natureza%></a></h6>
             <%end%>
         <%end%>
     <%end%>

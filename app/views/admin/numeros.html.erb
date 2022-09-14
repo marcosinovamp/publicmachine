@@ -1,0 +1,64 @@
+<div class="container">
+    <h1>Números da Máquina Pública</h1>
+    <br>
+    <h3 style="text-align:center">Quantidade de Órgãos: <span style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_orgs - @qtd_bases%></span></h3>
+    <h6 style="text-align:center">(<span style="color:#689F38;font-weight:700;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_direta%></span> da Administração Direta e <span style="color:#689F38;font-weight:700;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_indireta%></span> da Administração Indireta)</h6>
+    <br>
+    <h3 style="text-align:center">Quantidade de Unidades Organizacionais (UORGs): <span style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=nmb_form(@qtd_uorgs)%></span></h3>
+    <h6 style="text-align:center">(<span style="color:#689F38;font-weight:700;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=nmb_form(@qtd_uorgs_direta)%></span> da Administração Direta e <span style="color:#689F38;font-weight:700;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=nmb_form(@qtd_uorgs_indireta)%></span> da Administração Indireta)</h6>
+    <br>
+    <h3 style="text-align:center">São:</h3>
+    <br>
+    <div style="text-align:center;margin-bottom:30px" class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20">1</h3>
+            <h5>Presidência</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20">1</h3>
+            <h5>Vice-Presidência</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_ministerios%></h3>
+            <h5>Ministérios</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_direta - @qtd_ministerios - 2%></h3>
+            <h5>Órgãos com Status de Ministério</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_especiais%></h3>
+            <h5>Autarquias de Natureza Especial</h5>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+    <div style="text-align:center;margin-bottom:30px" class="row">
+        <div class="col-sm-1">
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_reguladoras%></h3>
+            <h5>Agências Reguladoras</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_autfund%></h3>
+            <h5>Autarquias e Fundações</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_ifes%></h3>
+            <h5>Instituições Federais de Educação</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_empresas%></h3>
+            <h5>Empresas Públicas</h5>
+        </div>
+        <div class="col-sm-2 box">
+            <h3 style="color:#689F38;text-shadow: 0.5px 0.5px 0.5px #1B5E20"><%=@qtd_bancos%></h3>
+            <h5>Bancos Públicos</h5>
+        </div>
+        <div class="col-sm-1">
+        </div>
+    </div>
+</div>
